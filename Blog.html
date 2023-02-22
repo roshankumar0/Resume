@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Blog.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="navbar-icon" id="navbar-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="navbar-menu" id="navbar-menu">
+                <li><a href="#">Work</a></li>
+                <li><a href="/">Blogs</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="recent--design UI">
+                <h2>Blog</h2>
+                <div class="UI">
+                    <div class="UI__Card">
+                        <h3>UI Interactions of the week</h3>
+                        <span class="recent__update">
+                            <span class="recent__update__data">12 Feb 2020</span> |
+                            <span class="recent__update__pattern">
+                                Design, Pattern
+                            </span>
+                        </span>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                            officia
+                            consequat
+                            duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <section class="recent Featured">
+        <footer id="footer">
+            <div class="footer__nav">
+                <ul class="social__link">
+                    <li><img src="./image/fb.png" alt=""></li>
+                    <li><img src="./image/Vector (1).png" alt=""></li>
+                    <li><img src="./image/Vector.png" alt=""></li>
+                    <li><img src="./image/Linkedin.png" alt=""></li>
+                </ul>
+                <span class="copyright">Copyright ©2020 All rights reserved </span>
+            </div>
+        </footer>
+    </section>
+    <script>
+        const navbarIcon = document.getElementById('navbar-icon');
+        const navbarMenu = document.getElementById('navbar-menu');
+
+        navbarIcon.addEventListener('click', () => {
+            navbarIcon.classList.toggle('active');
+            navbarMenu.classList.toggle("active")
+        });
+
+    </script>
+</body>
+
+</html>

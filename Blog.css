@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --secondry: #00A8CC;
+    --primary: #FF6464;
+    --dark: #21243D;
+    --light: #8695A4;
+    --font-family: 'Heebo', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--dark);
+    /* background: #EDF7FA; */
+}
+
+.recent.Featured,
+.hero__section,
+.recent--design {
+    max-width: 682px;
+    padding: 16px;
+    margin: auto;
+
+
+}
+
+.recent--design.UI h2 {
+    color: var(--dark);
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 44px;
+
+
+}
+
+.UI__Card h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0px;
+
+
+}
+
+span.recent__update {
+    gap: 40px;
+    justify-content: start;
+
+}
+
+@media screen and (min-width: 769px) {}

@@ -199,6 +199,23 @@ span.copyright {
     width: 100%;
 }
 
+#navbar-menu li a:active {
+    color: var(--primary);
+
+}
+
+.active {
+    color: var(--primary);
+    font-size: 40px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+}
+
 @media screen and (min-width: 769px) {
     .hero--work {
         display: flex;
@@ -294,11 +311,13 @@ span.copyright {
         z-index: 1;
 
     }
-    .hero--work{
+
+    .hero--work {
         display: flex;
         flex-direction: column;
 
     }
+
     .hero__section {
         text-align: center;
         background-color: #ffffff;
@@ -391,7 +410,8 @@ span.copyright {
     .view__all {
         display: none;
     }
-    .hero__section--resume{
+
+    .hero__section--resume {
         padding: 0 16px;
     }
 }
