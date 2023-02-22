@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portFolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="navbar-icon" id="navbar-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="navbar-menu" id="navbar-menu">
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div>
+            <div class="body__container">
+                <section class="hero__section">
+                    <div class="hero__img">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.FkxjAJZue7BfokBPUORXbAHaFj&pid=Api&P=0" alt="">
+                    </div>
+                    <div class="hero__section--resume">
+                        <h1 class="hero__about">
+                            <span> Hi, I am John,</span>
+                            <span class="hero--work">
+                                <span>Create</span>
+                                <span>Technologist</span>
+                            </span>
+                        </h1>
+                        <p class="hero__details">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat
+                            duis
+                            enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </p>
+                        <button class="here__download"> Download Resume</button>
+                    </div>
+                </section>
+                <section class="recent">
+                    <div class="recent--design">
+                        <div class="recent--design--more">
+                            <h4>Recent post</h4>
+                            <span class="view__all">View all</span>
+                        </div>
+                        <div class="recent__container">
+                            <div class="recent__card">
+                                <h2>Making a design system from scratch</h2>
+                                <span class="recent__update">
+                                    <span class="recent__update__data">12 Feb 2020</span> |
+                                    <span class="recent__update__pattern">
+                                        Design, Pattern
+                                    </span>
+                                </span>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia
+                                    consequat
+                                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            </div>
+                            <div class="recent__card">
+                                <h2>Creating pixel perfect icons in Figma</h2>
+                                <span class="recent__update">
+                                    <span class="recent__update__data">12 Feb 2020</span> |
+                                    <span class="recent__update__pattern">
+                                        Design, Pattern
+                                    </span>
+                                </span>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia
+                                    consequat
+                                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="recent Featured">
+                    <h4>Featured work</h4>
+                    <div class="recent__work">
+                        <div class="recent__work--card">
+                            <div>
+                                <img src="./image/Rectangle 30 (1).png" alt="" class="dashboard">
+                            </div>
+                            <div class="recent__card">
+                                <h2>Designing Dashboards</h2>
+                                <span class="recent__update">
+                                    <span>2020</span>
+                                    <span>Dashboards</span>
+                                </span>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia
+                                    consequat
+                                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            </div>
+                        </div>
+                        <div class="recent__work--card">
+                            <div>
+                                <img src="./image/Rectangle 32.png" alt="" class="dashboard">
+                            </div>
+                            <div class="recent__card">
+                                <h2>Vibrant Portraits of 2020 </h2>
+                                <span class="recent__update">
+                                    <span>2010</span>
+                                    <span>Illustration</span>
+                                </span>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia
+                                    consequat
+                                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            </div>
+                        </div>
+                        <div class="recent__work--card">
+                            <div>
+                                <img src="./image/Rectangle 34.png" alt="" class="dashboard">
+                            </div>
+                            <div class="recent__card">
+                                <h2>36 Days of Malayalam type </h2>
+                                <span class="recent__update">
+                                    <span>2018</span>
+                                    <span>Typography</span>
+                                </span>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia
+                                    consequat
+                                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <footer id="footer">
+                        <div class="footer__nav">
+                            <ul class="social__link">
+                                <li><img src="./image/fb.png" alt=""></li>
+                                <li><img src="./image/Vector (1).png" alt=""></li>
+                                <li><img src="./image/Vector.png" alt=""></li>
+                                <li><img src="./image/Linkedin.png" alt=""></li>
+                            </ul>
+                            <span class="copyright">Copyright ©2020 All rights reserved </span>
+                        </div>
+                    </footer>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script>
+        const navbarIcon = document.getElementById('navbar-icon');
+        const navbarMenu = document.getElementById('navbar-menu');
+
+        navbarIcon.addEventListener('click', () => {
+            navbarIcon.classList.toggle('active');
+            navbarMenu.classList.toggle("active")
+        });
+
+    </script>
+</body>
+
+</html>
