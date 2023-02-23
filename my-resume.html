@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Roshan Kumar - Front-end Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="resume.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-icon" id="navbar-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="navbar-menu" id="navbar-menu">
+            <li><a href="#" class="active">Work</a></li>
+            <li><a href="./Blog.html">Blogs</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="/my-resume.html">Resume</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <header>
+            <h1>Roshan Kumar</h1>
+            <p>Front-end Developer</p>
+        </header>
+
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>I am a front-end developer with 1 year of experience creating responsive and user-friendly websites. My
+                skills include HTML, CSS, JavaScript, React, and Git. I am passionate about creating clean and efficient
+                code, and I am always looking for new challenges and opportunities to learn.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <h3>Front-end Developer, ABC Company (1 year)</h3>
+            <ul>
+                <li>Designed and developed responsive websites using HTML, CSS, and JavaScript</li>
+                <li>Worked closely with the UX/UI team to ensure a seamless user experience</li>
+                <li>Maintained and updated existing websites to ensure they were up-to-date and functioning properly
+                </li>
+                <li>Collaborated with back-end developers to integrate front-end code with server-side functionality
+                </li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <h3>Project 1: E-commerce Website</h3>
+            <ul>
+                <li>Built a responsive e-commerce website using React and Redux</li>
+                <li>Implemented payment processing using Stripe API</li>
+                <li>Optimized website performance and improved load times</li>
+                <li>Deployed website using AWS S3 and CloudFront</li>
+            </ul>
+            <h3>Project 2: Portfolio Website</h3>
+            <ul>
+                <li>Designed and developed a responsive portfolio website using HTML, CSS, and JavaScript</li>
+                <li>Implemented animations and transitions to enhance user experience</li>
+                <li>Used Git for version control and collaborated with a team of developers</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Git</li>
+                <li>Responsive design</li>
+                <li>User experience design</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p>Bachelor's Degree in Computer Science, XYZ University</p>
+            <p>Graduated with honors</p>
+            <p>Relevant coursework: Web Development, Data Structures and Algorithms, Software Engineering</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Email: roshankumar@email.com</li>
+                <li>Phone: 123-456-7890 </li>
+            </ul>
+        </section>
+        <footer id="footer">
+            <div class="footer__nav">
+                <ul class="social__link">
+                    <li><img src="./image/fb.png" alt=""></li>
+                    <li><img src="./image/Vector (1).png" alt=""></li>
+                    <li><img src="./image/Vector.png" alt=""></li>
+                    <li><img src="./image/Linkedin.png" alt=""></li>
+                </ul>
+                <span class="copyright">Copyright ©2020 All rights reserved </span>
+            </div>
+        </footer>
+        <script>
+            const navbarIcon = document.getElementById('navbar-icon');
+            const navbarMenu = document.getElementById('navbar-menu');
+    
+            navbarIcon.addEventListener('click', () => {
+                navbarIcon.classList.toggle('active');
+                navbarMenu.classList.toggle("active")
+            });
+    
+        </script>
+    </div>

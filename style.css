@@ -151,7 +151,7 @@ span.recent__update {
 }
 
 .navbar-menu li a {
-    color: #000000;
+    color: var(--primary);
     font-size: 20px;
     font-weight: 500;
     line-height: 29px;
@@ -214,6 +214,8 @@ span.copyright {
     top: 0;
     z-index: 999;
     background-color: #fff;
+    margin: auto;
+    width: 90%;
 }
 
 @media screen and (min-width: 769px) {
@@ -333,7 +335,6 @@ span.copyright {
         justify-content: stretch;
         gap: 40px;
     }
-
     .recent.recent.Featured .recent__card p {
         border-bottom: 2px solid #E0E0E0;
         padding-bottom: 16px;
